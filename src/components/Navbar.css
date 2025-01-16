@@ -1,0 +1,26 @@
+
+
+
+
+.header-li{
+    position: absolute;
+    display: flex;
+  
+    gap: 40px;
+    color: var(--primary-text-color);
+    top: 2em;
+    left: 5em;
+  }
+  .header-li p {
+    padding: 10px 20px;
+    color: var(--primary-text-color);
+  }
+  .header-li p:hover {
+    background-color: var(--foreground-color);
+    transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+    color: var(--text-color);
+    
+  }
+  .header-li p{
+    transition: background-color 500ms ease-in-out ;
+  }
