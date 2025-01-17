@@ -1,4 +1,5 @@
 * {
+  background-color: var(--background-color);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +12,7 @@
   --foreground-color: #003cff;
   --primary-text-color: #0a0a0a;
   --secondary-text-color: #ffffff;
+  --tertiary-text-color: #1d9e9e;
   --toggle-bg: #f0eb9d;
   --toggle-fg: #ffd000;
   --text-color: #ffffff;
@@ -26,3 +28,9 @@
   --toggle-fg: #00a6ff;
    
 }
+
+
+
+
+
+

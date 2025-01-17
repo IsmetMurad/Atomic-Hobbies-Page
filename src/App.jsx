@@ -1,10 +1,15 @@
-import React from 'react'
-import { useState } from 'react';
+import React from 'react';
 import useLocalStorage from 'use-local-storage';
 import './App.css';
-import { Toggle } from './components/Toggle';
 import Navbar from './components/Navbar';
-export const App = () => {
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Shop from './pages/Shop';
+import About from './pages/About';
+import { Routes, Route } from 'react-router-dom';
+
+ const App = () => {
+
   const [isDark, setIsDark] = useLocalStorage('isDark', false)
   return (
 
@@ -13,11 +18,22 @@ export const App = () => {
 
     
     <div className='App' data-theme = {isDark ? 'dark' : 'light'}>
+      
       <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/shop' element={<Shop />} />
+      </Routes>
 
 
-      <h1 className='title'>Hello world !</h1>
-      <div className='box'><h2>This is a box </h2></div>
+      
+      
+      
+
+
+
 
   
     </div>

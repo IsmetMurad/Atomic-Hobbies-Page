@@ -1,0 +1,21 @@
+.card-img{
+    width: 180px;
+}
+.hp-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 28em;
+    gap: 10px;
+    margin-bottom: 20px;
+
+
+}
+.text{
+    color: var(--primary-text-color);
+}
