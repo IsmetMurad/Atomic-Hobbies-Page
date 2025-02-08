@@ -1,5 +1,6 @@
 .card-img{
     width: 180px;
+    border-radius: 10px;
 }
 .hp-wrapper{
     display: flex;

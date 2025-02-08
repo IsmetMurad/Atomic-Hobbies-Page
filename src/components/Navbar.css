@@ -20,13 +20,13 @@
     
   }
   .header-li .li-items:hover {
-    background-color: var(--foreground-color);
+
     transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
-    color: var(--text-color);
+    color: var(--tertiary-text-color);
     
   }
   .header-li .li-items{
-    transition: background-color 500ms ease-in-out ;
+    transition: background-color 200ms ease-in-out ;
   }
   a{
     text-decoration: none;

@@ -11,23 +11,23 @@ import '../index.css'
 const Cards = [    
 {
   name: 'Arduino Robot Car',
-  description: 'Lorem ipsum dolor sit amet',
+  description: 'This car is maked by Ismet Murad. ',
   img: img1
 },
 {
   name: 'Arduino Game Console',
-  description: 'Lorem ipsum dolor sit amet',
+  description: 'This is ATOMBOY V2.0.',
   img: img3
 },
 {
   name: 'ESP32 Smart Home',
-  description: 'Lorem ipsum dolor sit amet',
+  description: 'You can control components with this.',
   img: img4
 },
 
 {
   name: 'Lego Mindstorms Shoter',
-  description: 'Lorem ipsum dolor sit amet',
+  description: 'Shoot targets and win.',
   img: img2
 
 },
