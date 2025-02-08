@@ -1,11 +1,11 @@
 import React from 'react';
 import useLocalStorage from 'use-local-storage';
 import './App.css';
-import Navbar from './components/Navbar';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import Shop from './pages/Shop';
-import About from './pages/About';
+import Navbar from './components/Navbar.jsx';
+import Contact from './pages/contact.jsx';
+import Home from './pages/Home.jsx';
+import Shop from './pages/Shop.jsx';
+import About from './pages/About.jsx';
 import { Routes, Route } from 'react-router-dom';
 
  const App = () => {
