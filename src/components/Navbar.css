@@ -1,8 +1,29 @@
+@media only screen and (max-width: 1200px) {
+  .li-items {
+    display: none;
+  }
+
+}
+.bar {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bar-line {
+  display: flex;
+  background-color: var(--primary-text-color);
+  height: 5px;
+  width: 30px;
+  border-radius: 3px;
+}
 .img-wrapper{
   position: absolute;
   top: 2em;
   left: 2em;
 }
+
+
 .header-li{
     position: absolute;
     display: flex;
@@ -49,4 +70,5 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--primary-text-color);
   }
+
  

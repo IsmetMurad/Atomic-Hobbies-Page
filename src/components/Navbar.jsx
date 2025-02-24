@@ -4,6 +4,7 @@ import useLocalStorage from 'use-local-storage';
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
 import logo from '../imgs/atomic-logo-2.png'
+import bars from '../../src/imgs/bars.svg'
 
 
 
@@ -26,6 +27,12 @@ export const Navbar = () => {
           <Link to='/about'><p className='li-items'>About</p></Link>
           <Link to='/contact'><p className='li-items'>Contact</p></Link>
           <Link to='/shop'><p className='li-items'>Shop</p></Link>
+          <div className='bar'>
+            <div className='bar-line'></div>
+            <div className='bar-line'></div>
+            <div className='bar-line'></div>
+          </div>
+
       
 
         </div>
