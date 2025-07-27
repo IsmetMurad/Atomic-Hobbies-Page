@@ -21,7 +21,7 @@ import { Routes, Route } from 'react-router-dom';
       
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/Atomic-Hobbies-Page' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/shop' element={<Shop />} />

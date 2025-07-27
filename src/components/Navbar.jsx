@@ -23,7 +23,7 @@ export const Navbar = () => {
         <div className='header-li'>
         
 
-          <Link to='/'><p className='li-items'>Home</p></Link>
+          <Link to='/Atomic-Hobbies-Page'><p className='li-items'>Home</p></Link>
           <Link to='/about'><p className='li-items'>About</p></Link>
           <Link to='/contact'><p className='li-items'>Contact</p></Link>
           <Link to='/shop'><p className='li-items'>Shop</p></Link>
